@@ -1,0 +1,19 @@
+{
+  "@id": "https://www.vedia-fi/businesstransaction14321411",
+
+  "@type": "fd:BusinessService#BusinessTransaction",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:BusinessService#involvedActor": {
+    "fd:BusinessService#actorName": "Vedia"
+  },
+  "fd:BusinessService#hasService": {
+    "fd:BusinessService#LogisticsService": {
+        "fd:BusinessService#TransportService": {
+          "fd:BusinessService#usedTransportModality": "Road"
+        }
+
+    }
+  }
+}

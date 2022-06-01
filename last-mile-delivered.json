@@ -1,0 +1,11 @@
+{
+  "@id": "https://www.lastmilelinkoping.com/federated/delivery432",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:BusinessService#bookingNumber": "464646",
+  "fd:LogisticsRoles#ServiceProvider": "LastMileLinkoping",
+  "fd:LogisticsRoles#Consignee": "bästadatorn-ab",
+  "fd:Event#ATDEvent": "2022-04-12T17:05:00.00000",
+  "fd:Event#ATAEvent": "2022-04-12T17:32:00.00000"
+}

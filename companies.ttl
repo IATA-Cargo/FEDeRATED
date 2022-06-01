@@ -1,0 +1,39 @@
+@prefix ns0: <https://onerecord.iata.org/api/CompanyInformation#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <https://onerecord.iata.org/Company#> .
+
+<http://localhost:8080/companies/bdi-nl>
+  a <https://onerecord.iata.org/api/CompanyInformation> ;
+  ns0:company <http://localhost:8080/companies/bdi-nl/company> ;
+  ns0:companyId "bdi-nl"^^xsd:string ;
+  ns0:serverEndpoint "http://localhost:8080/companies/bdi-nl"^^xsd:string ;
+  ns0:supportedContentTypes "application/ld+json"^^xsd:string ;
+  ns0:supportedLogisticsObjects "iata-cargo:Barge"^^xsd:string, "iata-cargo:Truck"^^xsd:string, "iata-cargo:Milk"^^xsd:string, "iata-cargo:Ecmr"^^xsd:string, "iata-cargo:ServiceRequest"^^xsd:string, "iata-cargo:Cheese"^^xsd:string, "iata-cargo:Pharma"^^xsd:string .
+
+<http://localhost:8080/companies/bdi-nl/company>
+  a <https://onerecord.iata.org/Company> ;
+  ns1:airlineCode "BDI-NL"^^xsd:string .
+
+<http://localhost:8080/companies/iata>
+  a <https://onerecord.iata.org/api/CompanyInformation> ;
+  ns0:company <http://localhost:8080/companies/iata/company> ;
+  ns0:companyId "iata"^^xsd:string ;
+  ns0:serverEndpoint "http://localhost:8080/companies/iata"^^xsd:string ;
+  ns0:supportedContentTypes "application/ld+json"^^xsd:string ;
+  ns0:supportedLogisticsObjects "iata-cargo:Awb"^^xsd:string, "iata-cargo:Warehouse"^^xsd:string, "iata-cargo:Freighter"^^xsd:string, "iata-cargo:LiveAnimals"^^xsd:string, "iata-cargo:ServiceRequest"^^xsd:string, "iata-cargo:Pharma"^^xsd:string, "iata-cargo:Rfs"^^xsd:string .
+
+<http://localhost:8080/companies/iata/company>
+  a <https://onerecord.iata.org/Company> ;
+  ns1:airlineCode "IATA"^^xsd:string .
+
+<http://localhost:8080/companies/vedia-oy>
+  a <https://onerecord.iata.org/api/CompanyInformation> ;
+  ns0:company <http://localhost:8080/companies/vedia-oy/company> ;
+  ns0:companyId "vedia-oy"^^xsd:string ;
+  ns0:serverEndpoint "http://localhost:8080/companies/vedia-oy"^^xsd:string ;
+  ns0:supportedContentTypes "application/ld+json"^^xsd:string ;
+  ns0:supportedLogisticsObjects "iata-cargo:ecmr"^^xsd:string, "iata-cargo:Salmon"^^xsd:string, "iata-cargo:BorderManagement"^^xsd:string, "iata-cargo:ServiceRequest"^^xsd:string, "iata-cargo:SantaSleigh"^^xsd:string, "iata-cargo:RoadTransport"^^xsd:string, "iata-cargo:ElkAntlers"^^xsd:string .
+
+<http://localhost:8080/companies/vedia-oy/company>
+  a <https://onerecord.iata.org/Company> ;
+  ns1:airlineCode "VEDIA"^^xsd:string .

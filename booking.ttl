@@ -1,0 +1,9 @@
+@prefix ns0: <https://onerecord.iata.org/booking:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/companies/iata/los/Booking_038296>
+  a <https://onerecord.iata.org/Booking>, <https://onerecord.iata.org/LogisticsObject> ;
+  ns0:carrier "http://localhost:8080/companies/iata"^^xsd:string ;
+  ns0:consignee "http://localhost:8080/companies/bdi-nl"^^xsd:string ;
+  ns0:freightForwarder "http://localhost:8080/companies/vedia-oy"^^xsd:string ;
+  ns0:price "http://localhost:8080/companies/iata/los/Price_077454"^^xsd:string .

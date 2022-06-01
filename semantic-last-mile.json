@@ -1,0 +1,11 @@
+{
+  "@id": "https://www.lastmilelinkoping.com/federated/delivery432",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:BusinessService#bookingNumber": "464646",
+  "fd:LogisticsRoles#Consignor": "ItaliaVeloceLogistica",
+  "fd:LogisticsRoles#ServiceProvider": "LastMileLinkoping",
+  "fd:Event#ETDEvent": "2022-04-12T17:00:00.00000",
+  "fd:Event#ETAEvent": "2022-04-12T17:30:00.00000"
+}

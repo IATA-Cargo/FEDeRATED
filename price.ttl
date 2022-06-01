@@ -1,0 +1,8 @@
+@prefix ns0: <https://onerecord.iata.org/price:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/companies/iata/los/Price_077454>
+  a <https://onerecord.iata.org/Price>, <https://onerecord.iata.org/LogisticsObject> ;
+  ns0:carrierChargeCode "CC"^^xsd:string ;
+  ns0:grandTotal "320.00"^^xsd:string ;
+  ns0:validTo "2022-05-27T14:26:36.326+00:00"^^xsd:string .

@@ -1,0 +1,10 @@
+{
+  "@type": "fd:BusinessService#LegalPerson",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:BusinessService#LegalPerson": {
+    "fd:BusinessService#actorName":"SIMPLE",
+    "fd:BusinessService#actorWebsite":"www.adif.es"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@type": "fd:BusinessService#LegalPerson",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:BusinessService#LegalPerson": {
+    "fd:BusinessService#actorName":"Vedia",
+    "fd:BusinessService#actorWebsite":"www.vedia.fi"
+  }
+}

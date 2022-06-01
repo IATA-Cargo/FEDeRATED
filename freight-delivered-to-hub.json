@@ -1,0 +1,9 @@
+{
+  "@id": "https://www.italiavelocelogistica.com/federated/order123/ata",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:LogisticsRoles#ServiceProvider": "ItaliaVeloceLogistica",
+  "fd:Event#ATAEvent": "2022-04-12T16:22:00.00000",
+  "fd:BusinessService#bookingNumber": "464646"
+}

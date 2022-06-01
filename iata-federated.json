@@ -1,0 +1,10 @@
+{
+  "@type": "fd:BusinessService#LegalPerson",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:BusinessService#LegalPerson": {
+    "fd:BusinessService#actorName":"IATA",
+    "fd:BusinessService#actorWebsite":"www.iata.org"
+  }
+}

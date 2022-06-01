@@ -1,0 +1,26 @@
+{
+  "@id": "https://www.federated-index.com/index",
+  "@context": {
+    "fd": "https://ontology.tno.nl/logistics/federated/"
+  },
+  "fd:BusinessService#LegalPerson": {
+    "fd:BusinessService#actorName":"IATA",
+    "fd:BusinessService#actorWebsite":"www.iata.org"
+  },  
+  "fd:BusinessService#LegalPerson": {
+    "fd:BBusinessService#actorName":"Vediafi",
+    "fd:BusinessService#actorWebsite":"www.vedia.fi"
+  },
+  "fd:BusinessService#LegalPerson": {
+    "fd:BusinessService#actorName":"BDI",
+    "fd:BusinessService#actorWebsite":"www.ontology.tno.nl"
+  },
+  "fd:BusinessService#LegalPerson": {
+    "BusinessService#actorName":"Grimaldi",
+    "fd:BusinessService#actorWebsite":"www.grimaldi.it"
+  },
+  "fd:BusinessService#LegalPerson": {
+    "BusinessService#actorName":"SIMPLE",
+    "fd:BusinessService#actorWebsite":"www.adif.es"
+  }
+}
